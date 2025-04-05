@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>503973651098-u486tn9kndrl9r92t4k28rjr3us6m85s.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.503973651098-u486tn9kndrl9r92t4k28rjr3us6m85s</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDTpjRD31np91tI6mH7IpBoHQPmyAnIH-k</string>
+	<key>GCM_SENDER_ID</key>
+	<string>503973651098</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>test.IntelliAlert</string>
+	<key>PROJECT_ID</key>
+	<string>intellialert-acb64</string>
+	<key>STORAGE_BUCKET</key>
+	<string>intellialert-acb64.firebasestorage.app</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:503973651098:ios:cceb0d8a6a693ac5a7f523</string>
+</dict>
+</plist>
