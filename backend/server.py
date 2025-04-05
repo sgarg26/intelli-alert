@@ -84,19 +84,19 @@ async def websocket_endpoint(websocket: WebSocket):
         manager.disconnect(websocket)
 
 # Endpoint to initiate an outbound call
-@app.post("/make-call")
-async def make_call(call_request: CallRequest, background_tasks: BackgroundTasks):
+@app.get("/make-call")
+async def make_call(background_tasks: BackgroundTasks):
     try:
         # Create TwiML for initial call
         response = VoiceResponse()
-        response.say(call_request.initialMessage)
+        response.say("This is an automated call.")
         gather = Gather(input='speech', action=f'{BASE_URL}/call-events', timeout=3, speech_timeout='auto')
         gather.say("How can I help you today?")
         response.append(gather)
 
         # Make the call
         call = client.calls.create(
-            to=call_request.to,
+            to="+17039440112",
             from_=twilio_phone_number,
             twiml=str(response),
             status_callback=f'{BASE_URL}/call-status',
